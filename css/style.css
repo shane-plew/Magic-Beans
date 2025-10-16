@@ -1,0 +1,199 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: auto;
+    height: auto;
+}
+
+a {
+    color: lime;
+    text-decoration: none;
+}
+
+.hero-container,
+.header,
+.info-container,
+.review-container,
+.buy-now-container,
+.footer {
+    flex: 0 0 auto;
+}
+
+.hero-container {
+    background-color: green;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: blue;
+    /* height: 40px; */
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: underline;
+}
+
+.links {
+    margin-left: auto;
+    display: flex;
+    gap: 18px;
+}
+
+.link {
+    padding: 8px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.hero-card-container {
+    flex: 1 1 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card {
+    width: 800px;
+    display: flex;
+}
+
+.hero-info {
+    width: 400px;
+}
+
+.hero-title {
+
+}
+
+.hero-text {
+
+}
+
+.button {
+    flex: none;
+    padding: 8px;
+}
+
+.hero-image {
+    width: 400px;
+}
+
+.info-container {
+    background-color: purple;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header {
+
+}
+
+.info-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+
+}
+
+.image-text {
+
+}
+
+.review-container {
+    background-color: orange;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+
+}
+
+.review-signature {
+
+}
+
+.buy-now-container {
+    background-color: yellow;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now-card {
+    width: 400px;
+    height: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-now-info {
+
+}
+
+.buy-now-header {
+
+}
+
+.buy-now-text {
+
+}
+
+#special-button {
+    justify-self: flex-end;
+}
+
+.footer {
+    background-color: pink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+
+}

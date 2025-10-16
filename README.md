@@ -1,0 +1,1 @@
+A landing page for a made up company that sells magic beans. Created following Odin-Project curriculum. 
