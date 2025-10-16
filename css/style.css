@@ -2,7 +2,7 @@
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: lime;
+    color: white;
     text-decoration: none;
 }
 
@@ -29,15 +29,11 @@ a {
 }
 
 .hero-container {
-    background-color: green;
-    /* height: 600px; */
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: blue;
-    /* height: 40px; */
     padding: 18px;
     display: flex;
     justify-content: space-around;
@@ -56,7 +52,7 @@ a {
 
 .link {
     padding: 8px;
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 10px;
 }
 
@@ -70,12 +66,18 @@ a {
 }
 
 .hero-card {
-    width: 800px;
+    padding: 40px;
     display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
 }
 
 .hero-info {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
 }
 
 .hero-title {
@@ -83,26 +85,32 @@ a {
 }
 
 .hero-text {
-
+    width: 600px;
 }
 
 .button {
     flex: none;
-    padding: 8px;
+    padding: 18px;
+    background-color: rgb(114, 175, 34);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
 }
 
 .hero-image {
-    width: 400px;
+
 }
 
 .info-container {
-    background-color: purple;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 18px;
 }
 
 .info-header {
@@ -124,7 +132,11 @@ a {
 }
 
 .image {
-
+    width: 300px;
+    height: 300px;
+    flex: none;
+    border: 1px solid rgb(39, 43, 33);
+    border-radius: 10px;
 }
 
 .image-text {
@@ -132,25 +144,32 @@ a {
 }
 
 .review-container {
-    background-color: orange;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.review {
+.review-card {
+    flex: 0 1 auto;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
+.review {
+    align-self: flex-start;
 }
 
 .review-signature {
-
+    align-self: flex-end;
 }
 
 .buy-now-container {
-    background-color: yellow;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
@@ -182,10 +201,10 @@ a {
 
 #special-button {
     justify-self: flex-end;
+    border: 1px solid white;
 }
 
 .footer {
-    background-color: pink;
     padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
@@ -196,4 +215,67 @@ a {
 
 .copyright {
 
+}
+
+.font-large-bold{
+    font-size: 48px;
+    font-weight: 1000;
+    color: white;
+}
+
+.font-header-white {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.font-header-dark {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(39, 43, 33);
+}
+
+.font-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.font-text-white {
+    font-size: 18px;
+    color: white;
+}
+
+.font-text-dark {
+    font-size: 18px;
+    color: rgb(39, 43, 33);
+}
+
+.font-text-large-italic-dark {
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(39, 43, 33);
+}
+
+.font-text-large-italic-bold-dark {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(39, 43, 33);
+}
+
+.background-main {
+    background-color: darkolivegreen;
+}
+
+.background-secondary {
+    background-color: burlywood;
+}
+
+.background-tertiary {
+    background-color: rgb(114, 121, 128);
+}
+
+.highlight {
+    background-color: rgb(114, 175, 34);
 }
